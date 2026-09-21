@@ -89,4 +89,4 @@ jobs:
         server: ${{ secrets.RCON_IP }}
         port: ${{ secrets.RCON_PORT }}
         password: ${{ secrets.RCON_PASSWORD }}
-        commands: '["reload", "New Resourcepack Update - please reconnect", "pack reload"]'
+        commands: '["reload", "pack reload", "say New Resourcepack Update - please reconnect"]'
