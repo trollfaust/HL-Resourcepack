@@ -4,6 +4,11 @@ on:
   push:
     branches:
       - main
+    paths:
+      - VERSION
+
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -15,19 +20,34 @@ jobs:
       with:
         fetch-depth: 0 # required for github-action-get-previous-tag
 
-    - name: Get previous tag
-      id: previoustag
-      uses: 'WyriHaximus/github-action-get-previous-tag@v1'
-      env:
-        GITHUB_TOKEN: ${{ secrets.RESOURCE_ZIPPER }}
+    - name: Read VERSION
+      id: ver
+      run: |
+        VERSION=$(cat VERSION | tr -d '[:space:]')
+        echo "version=${VERSION}" >> "$GITHUB_OUTPUT"
+        echo "tag=v${VERSION}" >> "$GITHUB_OUTPUT"
 
-    - name: Get next minor version
-      id: semver
-      uses: 'WyriHaximus/github-action-next-semvers@v1'
-      with:
-        version: ${{ steps.previoustag.outputs.tag }}
+    - name: Check tag exists
+      id: tag_check
+      run: |
+        if git ls-remote --tags origin \
+            "refs/tags/${{ steps.ver.outputs.tag }}" | grep -q .; then
+          echo "exists=true" >> "$GITHUB_OUTPUT"
+        else
+          echo "exists=false" >> "$GITHUB_OUTPUT"
+        fi
+
+    - name: Create git tag
+      if: steps.tag_check.outputs.exists == 'false'
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        git tag -a "${{ steps.ver.outputs.tag }}" \
+                -m "Release ${{ steps.ver.outputs.tag }}"
+        git push origin "${{ steps.ver.outputs.tag }}"
 
     - name: Create ZIP file
+      if: steps.tag_check.outputs.exists == 'false'
       run: |
         COMMIT_ID=$(git rev-parse --short HEAD)
         ZIP_NAME="RP.zip"
@@ -35,23 +55,23 @@ jobs:
         zip -r "${ZIP_NAME}" .
 
     - name: Upload ZIP artifact
+      if: steps.tag_check.outputs.exists == 'false'
       uses: actions/upload-artifact@v4
       with:
         name: resource-pack-artifact
         path: ${{ env.ZIP_NAME }}
 
     - name: Create Release
-      id: create_release
-      uses: actions/create-release@v1
-      env:
-        GITHUB_TOKEN: ${{ secrets.RESOURCE_ZIPPER }}
+      if: steps.tag_check.outputs.exists == 'false'
+      uses: softprops/action-gh-release@v2
       with:
-        tag_name: release-${{ steps.semver.outputs.patch }}
-        release_name: Release ${{ steps.semver.outputs.patch }}
+        tag_name: ${{ steps.ver.outputs.tag }}
+        name: ${{ steps.ver.outputs.tag }}
         draft: false
         prerelease: false
 
     - name: Upload Release Artifact
+      if: steps.tag_check.outputs.exists == 'false'
       id: upload-release-asset
       uses: actions/upload-release-asset@v1
       env:
