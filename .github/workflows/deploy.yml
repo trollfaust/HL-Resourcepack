@@ -21,11 +21,11 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.RESOURCE_ZIPPER }}
 
-    - name: Get next minor version
-      id: semver
-      uses: 'WyriHaximus/github-action-next-semvers@v1'
-      with:
-        version: ${{ steps.previoustag.outputs.tag }}
+#    - name: Get next minor version
+#      id: semver
+#      uses: 'WyriHaximus/github-action-next-semvers@v1'
+#      with:
+#        version: ${{ steps.previoustag.outputs.tag }}
 
     - name: Create ZIP file
       run: |
