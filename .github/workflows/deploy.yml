@@ -82,3 +82,11 @@ jobs:
         asset_path: ${{ github.workspace }}/${{ env.ZIP_NAME }}
         asset_name: ${{ env.ZIP_NAME }}
         asset_content_type: application/zip
+
+    - name: RCON Connection
+      uses: Plagiatus/RCON-Action@v0.3
+      with:
+        server: ${{ secrets.RCON_IP }}
+        port: ${{ secrets.RCON_PORT }}
+        password: ${{ secrets.RCON_PASSWORD }}
+        commands: '["reload", "pack reload"]'
