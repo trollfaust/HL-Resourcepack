@@ -1,7 +1,8 @@
 {
    "pack":{
-      "pack_format":69.0,
-      "description":"Hermitlike",
+      "min_format":97,
+      "max_format":97,
+      "description":"Just-Suvival Private Server RP",
 	   "_credits": "Trollfaust"
    }
 }
