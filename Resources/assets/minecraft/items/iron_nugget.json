@@ -1,0 +1,901 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "entries": [
+      {
+        "threshold": 21,
+        "model": {
+          "type": "model",
+          "model": "custom:item/hermits/token"
+        }
+      },{
+        "threshold": 301,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/moment_of_clarity"
+        }
+      },{
+        "threshold": 302,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/channeled_mantra"
+        }
+      },{
+        "threshold": 303,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/sneak"
+        }
+      },{
+        "threshold": 304,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/stability"
+        }
+      },{
+        "threshold": 305,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/treasure_hunter"
+        }
+      },{
+        "threshold": 306,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/ember_seeker"
+        }
+      },{
+        "threshold": 308,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/evasion"
+        }
+      },{
+        "threshold": 309,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/tread_lightly"
+        }
+      },{
+        "threshold": 310,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/loot_n_scoot"
+        }
+      },{
+        "threshold": 311,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/spirit_focus"
+        }
+      },{
+        "threshold": 312,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/revalation"
+        }
+      },{
+        "threshold": 313,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/monk_training"
+        }
+      },{
+        "threshold": 314,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/eyes_on_the_price"
+        }
+      },{
+        "threshold": 315,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/mantra_of_greed"
+        }
+      },{
+        "threshold": 316,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/bounding_strides"
+        }
+      },{
+        "threshold": 317,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/second_wind"
+        }
+      },{
+        "threshold": 318,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/sprint"
+        }
+      },{
+        "threshold": 319,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/quickstep"
+        }
+      },{
+        "threshold": 320,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/reckless_charge"
+        }
+      },{
+        "threshold": 321,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/hidden_walls"
+        }
+      },{
+        "threshold": 322,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/blockade_break"
+        }
+      },{
+        "threshold": 324,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/adrenaline_rush"
+        }
+      },{
+        "threshold": 327,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/swagger"
+        }
+      },{
+        "threshold": 328,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/nimble_looting"
+        }
+      },{
+        "threshold": 330,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/smash_and_grab"
+        }
+      },{
+        "threshold": 331,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/resilience"
+        }
+      },{
+        "threshold": 332,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/silent_runner"
+        }
+      },{
+        "threshold": 334,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/eerie_silence"
+        }
+      },{
+        "threshold": 335,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/dungeon_repairs"
+        }
+      },{
+        "threshold": 336,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/mind_focused"
+        }
+      },{
+        "threshold": 337,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/soul_focused"
+        }
+      },{
+        "threshold": 338,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/calm_mending"
+        }
+      },{
+        "threshold": 340,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/ghostly_step"
+        }
+      },{
+        "threshold": 341,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/fluidity"
+        }
+      },{
+        "threshold": 342,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/fast_thinking"
+        }
+      },{
+        "threshold": 344,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/speed_runner"
+        }
+      },{
+        "threshold": 346,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/mantra_of_spirits"
+        }
+      },{
+        "threshold": 348,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/glimpse_of_the_future"
+        }
+      },{
+        "threshold": 350,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/missed_opportunity"
+        }
+      },{
+        "threshold": 352,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/essence_snap"
+        }
+      },{
+        "threshold": 354,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/fuzzy_bunny_slippers"
+        }
+      },{
+        "threshold": 356,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/deep_souls"
+        }
+      },{
+        "threshold": 359,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/soul_of_steel"
+        }
+      },{
+        "threshold": 360,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/mind_of_steel"
+        }
+      },{
+        "threshold": 361,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/body_of_steel"
+        }
+      },{
+        "threshold": 363,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/soul_shatter"
+        }
+      },{
+        "threshold": 364,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/mind_fracture"
+        }
+      },{
+        "threshold": 366,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/mantra_of_stability"
+        }
+      },{
+        "threshold": 370,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/ying"
+        }
+      },{
+        "threshold": 371,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/yang"
+        }
+      },{
+        "threshold": 374,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/curse_of_oppulence"
+        }
+      },{
+        "threshold": 376,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/brilliance"
+        }
+      },{
+        "threshold": 387,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/avalance"
+        }
+      },{
+        "threshold": 388,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/glorious_moment"
+        }
+      },{
+        "threshold": 389,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/balance"
+        }
+      },{
+        "threshold": 390,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/cash_cow"
+        }
+      },{
+        "threshold": 391,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/boots_of_swiftness"
+        }
+      },{
+        "threshold": 392,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/mantra_of_balance"
+        }
+      },{
+        "threshold": 393,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/silent_regeneration"
+        }
+      },{
+        "threshold": 398,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/pay_to_win"
+        }
+      },{
+        "threshold": 399,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/tactical_approach"
+        }
+      },{
+        "threshold": 400,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/porkchop_power"
+        }
+      },{
+        "threshold": 401,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/mantra_of_silence"
+        }
+      },{
+        "threshold": 402,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/spirit_walk"
+        }
+      },{
+        "threshold": 403,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/rapid_leap"
+        }
+      },{
+        "threshold": 404,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/forager"
+        }
+      },{
+        "threshold": 405,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/vitality_tonic"
+        }
+      },{
+        "threshold": 406,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/second_chance"
+        }
+      },{
+        "threshold": 409,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/stumble"
+        }
+      },{
+        "threshold": 410,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/cracked_walls"
+        }
+      },{
+        "threshold": 411,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/blank_mind"
+        }
+      },{
+        "threshold": 412,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/cards/revenge_of_spirits"
+        }
+      },{
+        "threshold": 450,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/icons/gv_clank"
+        }
+      },{
+        "threshold": 451,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/icons/gv_clank_block"
+        }
+      },{
+        "threshold": 452,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/icons/gv_hazard"
+        }
+      },{
+        "threshold": 453,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/icons/gv_hazard_block"
+        }
+      },{
+        "threshold": 454,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/icons/gv_golden_bit"
+        }
+      },{
+        "threshold": 455,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/icons/gv_nugget"
+        }
+      },{
+        "threshold": 456,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/icons/gv_coin"
+        }
+      },{
+        "threshold": 457,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/icons/gv_ember"
+        }
+      },{
+        "threshold": 458,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/icons/gv_mantra"
+        }
+      },{
+        "threshold": 459,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/icons/gv_body"
+        }
+      },{
+        "threshold": 460,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/icons/gv_mind"
+        }
+      },{
+        "threshold": 461,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/icons/gv_soul"
+        }
+      },{
+        "threshold": 462,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/icons/gv_cards_small"
+        }
+      },{
+        "threshold": 463,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/icons/gv_cards_big"
+        }
+      },{
+        "threshold": 464,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/icons/gv_skull"
+        }
+      },{
+        "threshold": 465,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/icons/gv_shard"
+        }
+      },{
+        "threshold": 470,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/keys/entrance_key"
+        }
+      },{
+        "threshold": 471,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/keys/flowering_caves_key"
+        }
+      },{
+        "threshold": 472,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/keys/frozen_depth_key"
+        }
+      },{
+        "threshold": 473,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/keys/dark_grave_key"
+        }
+      },{
+        "threshold": 474,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/keys/breach_key"
+        }
+      },{
+        "threshold": 501,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/artifacts/shield_of_a_guard"
+        }
+      },{
+        "threshold": 502,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/artifacts/hood_of_concealment"
+        }
+      },{
+        "threshold": 503,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/artifacts/rings_of_bonding"
+        }
+      },{
+        "threshold": 504,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/artifacts/sand_of_time"
+        }
+      },{
+        "threshold": 505,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/artifacts/goblet_of_thirst"
+        }
+      },{
+        "threshold": 506,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/artifacts/ritual_dagger"
+        }
+      },{
+        "threshold": 507,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/artifacts/pouch_of_storing"
+        }
+      },{
+        "threshold": 508,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/artifacts/lantern_of_revealing"
+        }
+      },{
+        "threshold": 509,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/artifacts/mirroring_glass"
+        }
+      },{
+        "threshold": 510,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/artifacts/eye_of_a_ravager"
+        }
+      },{
+        "threshold": 511,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/artifacts/scroll_of_scrolls"
+        }
+      },{
+        "threshold": 512,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/artifacts/collar_of_balthazar"
+        }
+      },{
+        "threshold": 513,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/artifacts/mask_of_the_fox"
+        }
+      },{
+        "threshold": 514,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/artifacts/pendent_of_dryad_soul"
+        }
+      },{
+        "threshold": 515,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/artifacts/lost_anchor"
+        }
+      },{
+        "threshold": 516,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/artifacts/dapper_tophat"
+        }
+      },{
+        "threshold": 517,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/artifacts/celen_loth"
+        }
+      },{
+        "threshold": 518,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/artifacts/crystal_skull"
+        }
+      },{
+        "threshold": 519,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/artifacts/runestone_of_throwing"
+        }
+      },{
+        "threshold": 520,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/artifacts/ordinary_helmet"
+        }
+      },{
+        "threshold": 521,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/artifacts/a_new_beginning"
+        }
+      },{
+        "threshold": 522,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/artifacts/potion_of_the_unknown"
+        }
+      },{
+        "threshold": 523,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/artifacts/cloak_n_dagger"
+        }
+      },{
+        "threshold": 524,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/artifacts/fairy_dust"
+        }
+      },{
+        "threshold": 525,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/artifacts/slow_falling_feather"
+        }
+      },{
+        "threshold": 526,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/artifacts/dwarven_brew"
+        }
+      },{
+        "threshold": 527,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/artifacts/jar_of_ambrosia"
+        }
+      },{
+        "threshold": 528,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/artifacts/tome_of_secrets"
+        }
+      },{
+        "threshold": 529,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/artifacts/wizards_robe"
+        }
+      },{
+        "threshold": 530,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/artifacts/storm_crystal"
+        }
+      },{
+        "threshold": 531,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/artifacts/staff_of_a_shepherd"
+        }
+      },{
+        "threshold": 532,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/artifacts/fishermans_harpoon"
+        }
+      },{
+        "threshold": 533,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/artifacts/heros_tunic"
+        }
+      },{
+        "threshold": 534,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/artifacts/silken_whip"
+        }
+      },{
+        "threshold": 535,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/artifacts/strawberry_cheese"
+        }
+      },{
+        "threshold": 536,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/artifacts/fire_ruby"
+        }
+      },{
+        "threshold": 537,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/artifacts/bubbling_cauldron"
+        }
+      },{
+        "threshold": 538,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/artifacts/enclosed_bloodstone"
+        }
+      },{
+        "threshold": 539,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/artifacts/thanas_scyth"
+        }
+      },{
+        "threshold": 540,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/artifacts/ring_of_emotions"
+        }
+      },{
+        "threshold": 561,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/identifiers/gv_id01"
+        }
+      },{
+        "threshold": 562,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/identifiers/gv_id02"
+        }
+      },{
+        "threshold": 563,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/identifiers/gv_id03"
+        }
+      },{
+        "threshold": 564,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/identifiers/gv_id04"
+        }
+      },{
+        "threshold": 565,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/identifiers/gv_id05"
+        }
+      },{
+        "threshold": 566,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/identifiers/gv_id06"
+        }
+      },{
+        "threshold": 567,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/identifiers/gv_id07"
+        }
+      },{
+        "threshold": 568,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/identifiers/gv_id08"
+        }
+      },{
+        "threshold": 569,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/identifiers/gv_id09"
+        }
+      },{
+        "threshold": 570,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/identifiers/gv_id10"
+        }
+      },{
+        "threshold": 571,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/identifiers/gv_id11"
+        }
+      },{
+        "threshold": 572,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/identifiers/gv_id12"
+        }
+      },{
+        "threshold": 573,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/identifiers/gv_id13"
+        }
+      },{
+        "threshold": 574,
+        "model": {
+          "type": "model",
+          "model": "custom:item/gv/identifiers/gv_id14"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/iron_nugget"
+    }
+  }
+}

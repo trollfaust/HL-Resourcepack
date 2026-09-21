@@ -1,0 +1,291 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:condition",
+          "on_false": {
+            "type": "range_dispatch",
+            "property": "custom_model_data",
+            "entries": [
+              {
+                "threshold": 1,
+                "model": {
+                  "type": "range_dispatch",
+                  "property": "minecraft:bundle/fullness",
+                  "entries": [
+                    {
+                      "threshold": 0.0000001,
+                      "model": {
+                        "type": "model",
+                        "model": "custom:item/bundle/binder_full"
+                      }
+                    }
+                  ],
+                  "fallback": {
+                    "type": "minecraft:model",
+                    "model": "custom:item/bundle/binder_empty"
+                  }
+                }
+              },
+              {
+                "threshold": 2,
+                "model": {
+                  "type": "range_dispatch",
+                  "property": "minecraft:bundle/fullness",
+                  "entries": [
+                    {
+                      "threshold": 0.0000001,
+                      "model": {
+                        "type": "model",
+                        "model": "custom:item/briefcase_still"
+                      }
+                    }
+                  ],
+                  "fallback": {
+                    "type": "minecraft:model",
+                    "model": "custom:item/briefcase_still"
+                  }
+                }
+              },
+              {
+                "threshold": 3,
+                "model": {
+                  "type": "range_dispatch",
+                  "property": "minecraft:bundle/fullness",
+                  "entries": [
+                    {
+                      "threshold": 0.0000001,
+                      "model": {
+                        "type": "model",
+                        "model": "custom:item/briefcase_animated"
+                      }
+                    }
+                  ],
+                  "fallback": {
+                    "type": "minecraft:model",
+                    "model": "custom:item/briefcase_animated"
+                  }
+                }
+              },
+              {
+                "threshold": 4,
+                "model": {
+                  "type": "range_dispatch",
+                  "property": "minecraft:bundle/fullness",
+                  "entries": [
+                    {
+                      "threshold": 0.0000001,
+                      "model": {
+                        "type": "model",
+                        "model": "custom:item/mail_bag"
+                      }
+                    }
+                  ],
+                  "fallback": {
+                    "type": "minecraft:model",
+                    "model": "custom:item/mail_bag_empty"
+                  }
+                }
+              },
+              {
+                "threshold": 5,
+                "model": {
+                  "type": "range_dispatch",
+                  "property": "minecraft:bundle/fullness",
+                  "entries": [
+                    {
+                      "threshold": 0.0000001,
+                      "model": {
+                        "type": "model",
+                        "model": "custom:item/bundle/bouquet"
+                      }
+                    }
+                  ],
+                  "fallback": {
+                    "type": "minecraft:model",
+                    "model": "custom:item/bundle/bouquet_empty"
+                  }
+                }
+              },
+              {
+                "threshold": 6,
+                "model": {
+                  "type": "range_dispatch",
+                  "property": "minecraft:bundle/fullness",
+                  "entries": [
+                    {
+                      "threshold": 0.0000001,
+                      "model": {
+                        "type": "model",
+                        "model": "custom:item/bundle/bouquet2d"
+                      }
+                    }
+                  ],
+                  "fallback": {
+                    "type": "minecraft:model",
+                    "model": "custom:item/bundle/bouquet2d_empty"
+                  }
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/bundle"
+            }
+          },
+          "on_true": {
+            "type": "minecraft:composite",
+            "models": [
+              {
+                "type": "minecraft:model",
+                "model": "minecraft:item/bundle_open_back"
+              },
+              {
+                "type": "minecraft:bundle/selected_item"
+              },
+              {
+                "type": "minecraft:model",
+                "model": "minecraft:item/bundle_open_front"
+              }
+            ]
+          },
+          "property": "minecraft:bundle/has_selected_item"
+        },
+        "when": "gui"
+      }
+    ],
+    "fallback": {
+      "type": "range_dispatch",
+      "property": "custom_model_data",
+      "entries": [
+        {
+          "threshold": 1,
+          "model": {
+            "type": "range_dispatch",
+            "property": "minecraft:bundle/fullness",
+            "entries": [
+              {
+                "threshold": 0.0000001,
+                "model": {
+                  "type": "model",
+                  "model": "custom:item/bundle/binder_full"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "custom:item/bundle/binder_empty"
+            }
+          }
+        },
+        {
+          "threshold": 2,
+          "model": {
+            "type": "range_dispatch",
+            "property": "minecraft:bundle/fullness",
+            "entries": [
+              {
+                "threshold": 0.0000001,
+                "model": {
+                  "type": "model",
+                  "model": "custom:item/briefcase_still"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "custom:item/briefcase_still"
+            }
+          }
+        },
+        {
+          "threshold": 3,
+          "model": {
+            "type": "range_dispatch",
+            "property": "minecraft:bundle/fullness",
+            "entries": [
+              {
+                "threshold": 0.0000001,
+                "model": {
+                  "type": "model",
+                  "model": "custom:item/briefcase_animated"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "custom:item/briefcase_animated"
+            }
+          }
+        },
+        {
+          "threshold": 4,
+          "model": {
+            "type": "range_dispatch",
+            "property": "minecraft:bundle/fullness",
+            "entries": [
+              {
+                "threshold": 0.0000001,
+                "model": {
+                  "type": "model",
+                  "model": "custom:item/mail_bag"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "custom:item/mail_bag_empty"
+            }
+          }
+        },
+        {
+          "threshold": 5,
+          "model": {
+            "type": "range_dispatch",
+            "property": "minecraft:bundle/fullness",
+            "entries": [
+              {
+                "threshold": 0.0000001,
+                "model": {
+                  "type": "model",
+                  "model": "custom:item/bundle/bouquet"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "custom:item/bundle/bouquet_empty"
+            }
+          }
+        },
+        {
+          "threshold": 6,
+          "model": {
+            "type": "range_dispatch",
+            "property": "minecraft:bundle/fullness",
+            "entries": [
+              {
+                "threshold": 0.0000001,
+                "model": {
+                  "type": "model",
+                  "model": "custom:item/bundle/bouquet2d"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "custom:item/bundle/bouquet2d_empty"
+            }
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/bundle"
+      }
+    },
+    "property": "minecraft:display_context"
+  }
+}
